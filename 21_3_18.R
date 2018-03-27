@@ -1,0 +1,15 @@
+AC<-0.8;
+CB_AC<-0.75;
+AD<-1;
+DB_AD<-0.62;
+
+ACB<-(AC*CB_AC);
+ADB<-(AD*DB_AD);
+ADBc<-(1-ADB);
+ACBc<-(1-ACB);
+ACB*ADBc;
+ACB;
+B<-ACB+ADB-(ACB*ADB);
+B;
+N<-(AD)*((DB_AD+ACB)-(DB_AD*ACB));
+N/B;
