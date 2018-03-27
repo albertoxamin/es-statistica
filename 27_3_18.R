@@ -11,7 +11,7 @@ any_mf <- choose(tot_male, male) * choose(tot_female, female) *
 print_res("Tutti", any_mf)
 
 #Domanda 2
-picky_f <- choose(tot_male, male) * choose(tot_female - 1, female) *
+picky_f <- choose(tot_male, male) * choose(tot_female - 1, female - 1) *
     factorial(male + female)
 print_res("Una certa femmina", picky_f)
 
