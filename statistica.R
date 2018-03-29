@@ -22,6 +22,10 @@ bayes <- function(pa, pb){
     return(pa / (pa + pb))
 }
 
+concat <- function(x){
+    paste(x, collapse = "")
+}
+
 print_res <- function(s, x){
     paste(c(s, x), collapse = " = ")
 }
