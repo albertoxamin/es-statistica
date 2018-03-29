@@ -25,4 +25,4 @@ print_res(concat(c("P(>=", gre_diff, " bad)")), ale_rip(gre_diff))
 
 #Domanda 3
 gr_diff <- 5
-print_res(concat(c("P(>", gr_diff, " bad)")), ale_rip(gr_diff))
+print_res(concat(c("P(>", gr_diff, " bad)")), ale_rip(gr_diff + 1))
