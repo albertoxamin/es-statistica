@@ -15,4 +15,4 @@ print_res("Una certa femmina", picky_f)
 
 #Domanda 3
 picky_m <- choose(tot_male - 2, male) * choose(tot_female, female)
-print_res("Una certa femmina", picky_m)
+print_res("No 2 certi maschi", picky_m)
