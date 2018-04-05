@@ -44,7 +44,7 @@ print(concat(c("P(]-inf,", q, "]) = ", p_int)))
 
 #Plots
 g <- Vectorize(f)
-curve(g, -2, 2)
+curve(g, -lambda, lambda)
 curve(g, interval2[1], interval2[2], add = TRUE, col = "blue")
 curve(g, interval1[1], interval1[2], add = TRUE, col = "red")
 points(singlet, p_singlet)
