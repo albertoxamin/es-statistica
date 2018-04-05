@@ -45,5 +45,5 @@ bayes <- function(pa, pb){
 }
 
 print_res <- function(s, x){
-    paste(c(s, x), collapse = " = ")
+    paste(c(s, formatC(digits = 20, format ="f", x)), collapse = " = ")
 }

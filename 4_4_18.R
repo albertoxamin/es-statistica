@@ -29,11 +29,12 @@ p_min <- 0.0399
 
 delta <- 2 #un numero alto (per P)
 sing <- -9999
-singoletti <- c(0)
-for (v in 1:length(valori)){
-    diff <- p_min - valori[v]
+singoletti <- c()
+for (v in 1:(length(valori) + 1)){
+    val <- if (v <= length(valori)) valori[v] else 1
+    diff <- p_min - val
     prev <- if (v > 0) valori[v - 1] else 0
-    singoletti <- c(singoletti, valori[v] - prev)
+    singoletti <- c(singoletti, val - prev)
     if (diff > 0 && diff < delta){
         delta <- diff
         sing <- punti[v]
