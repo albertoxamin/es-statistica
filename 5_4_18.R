@@ -1,8 +1,5 @@
 source("statistica.R")
 
-#lim n->inf 1/n
-lim1_n <- 0.00000000000000001
-
 lambda <- 2.026
 
 f <- function(x) {
