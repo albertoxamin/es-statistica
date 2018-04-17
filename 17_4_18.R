@@ -18,7 +18,7 @@ y <- function(x){
 search_y <- 3.8918203
 prob <- 0
 for (i in 1:length(x)){
-    if ( (y(x[i]) - search_y) < 0.00001)
+    if (abs(y(x[i]) - search_y) < 0.00001)
         prob <- prob + P(1, x[i])
 }
 print(concat(c("Py = ", prob, "/", sum)))
