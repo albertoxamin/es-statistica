@@ -2,11 +2,11 @@ source("statistica.R")
 
 omega <- c(10.78, 19.6)
 
-f <- function(a) {
+f <- function(a){
     if (a < omega[1])
         return(0)
     else if (a < omega[2])
-        return(((a - omega[1]) ^ 2) / 77.7924)
+        return( ( (a - omega[1]) ^ 2) / 77.7924)
     else
         return(1)
 }
