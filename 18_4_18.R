@@ -21,4 +21,4 @@ Y <- function(x) {
 
 #∑yipi=
 print_res("E(Y)", 0.02 - 0.17 * lambda, FALSE)
-print_res("E(Y)", (0.17 ^ 2) * lambda, FALSE)
+print_res("Var(Y)", (0.17 ^ 2) * lambda, FALSE)
