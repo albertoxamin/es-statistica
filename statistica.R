@@ -48,6 +48,7 @@ bayes <- function(pa, pb){
 lim1_n <- 0.000000000000001
 
 print_res <- function(s, x, precision = TRUE){
+    s <- concat(s)
     if (precision) val <- formatC(digits = 20, format = "f", x) else val <- x
     paste(c(s, val), collapse = " = ")
 }
