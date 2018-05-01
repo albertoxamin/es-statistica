@@ -1,3 +1,5 @@
+options ( digits = 20)
+
 #funzioni 
 compl <- function(x) {
     return(1 - x)
