@@ -12,8 +12,8 @@ p_overbook <- function(vehicle) {
     return(sum(dbinom(i, vehicle[1], 1 - p_not_used)))
 }
 
-cat("P overflow", vehicle_a[2], "=", p_overbook(vehicle_a), "\n")
-cat("P overflow", vehicle_b[2], "=", p_overbook(vehicle_b), "\n")
+cat("P overbook", vehicle_a[2], "=", p_overbook(vehicle_a), "\n")
+cat("P overbook", vehicle_b[2], "=", p_overbook(vehicle_b), "\n")
 
 for (i in vehicle_a[2]:(vehicle_a[2] + 100)) {
     overbook <- p_overbook(c(i, vehicle_a[2]))
