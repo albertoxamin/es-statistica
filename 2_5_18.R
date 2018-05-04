@@ -8,8 +8,6 @@ deviation_unif <- function(int){
     return((int[2] - int[1]) / sqrt(12))
 }
 
-
-
 interval <- c(-1.71, 3.22)
 order <- 0.6
 y <- 0.72
