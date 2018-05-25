@@ -1,6 +1,6 @@
 options(digits = 12)
 
-X <- c(-2.16, 1.74) #N(µ, ∂^2)
+X <- c(-2.16, 1.74) # N(µ, ∂^2)
 Y <- c(3.98, 11.63)
 
 p_neg <- function(N) pnorm(0, N[1], sqrt(N[2]))
