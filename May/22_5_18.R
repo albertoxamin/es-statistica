@@ -1,5 +1,5 @@
 options(digits=12)
-#a exp(-bx-cy)
+# a exp(-bx-cy)
 a <- 6
 b <- 2
 c <- 3
